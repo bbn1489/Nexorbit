@@ -1,5 +1,7 @@
 "use client";
 
+import type { ReactNode } from "react";
+
 export default function LogoCarousel() {
   // SVG icon components for tech logos
   const logos = [
@@ -18,7 +20,7 @@ export default function LogoCarousel() {
   ];
 
   const LogoSVG = ({ name }: { name: string }) => {
-    const svgPaths: Record<string, JSX.Element> = {
+    const svgPaths: Record<string, ReactNode> = {
       Vercel: (
         <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
           <path d="M12 2L2 19.5h20L12 2z" />

@@ -10,7 +10,7 @@ export default function Footer() {
         <a href="#">Privacy</a>
         <a href="#">Terms</a>
       </div>
-      <p>© {new Date().getFullYear()} Nexorbit. All rights reserved.</p>
+      <p>© 2026 Nexorbit. All rights reserved.</p>
     </footer>
   );
 }
